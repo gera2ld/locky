@@ -1,0 +1,26 @@
+{
+  "name": "@gera2ld/locky",
+  "version": "0.0.0",
+  "description": "Transform lock files for different registries.",
+  "author": "Gerald <i@gerald.top>",
+  "main": "lib",
+  "bin": {
+    "locky": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:gera2ld/locky.git"
+}
