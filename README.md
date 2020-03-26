@@ -30,6 +30,16 @@ $ yarn global add @gera2ld/locky
 
 ## Usage
 
+```
+Usage: locky yarn [options] <target>
+
+Transform a yarn.lock file
+
+Options:
+  -t, --throw  Throw exception if lock file is changed
+  -h, --help   display help for command
+```
+
 ```sh
 # transform the yarn.lock to resolve to npm registry
 $ locky yarn npm

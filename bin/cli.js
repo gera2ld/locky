@@ -11,6 +11,7 @@ program
 
 program
 .command('yarn <target>')
+.description('Transform a yarn.lock file')
 .option('-t, --throw', 'Throw exception if lock file is changed')
 .action((target, cmd) => {
   yarn.check(target, cmd.throw);
