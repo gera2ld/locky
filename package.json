@@ -1,6 +1,6 @@
 {
   "name": "@gera2ld/locky",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transform lock files for different registries.",
   "author": "Gerald <i@gerald.top>",
   "main": "lib",
